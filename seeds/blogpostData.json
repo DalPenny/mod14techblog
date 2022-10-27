@@ -1,0 +1,12 @@
+[
+    {
+        "blogtitle": "Object-Relational Mapping",
+        "blogtext": "I liked learning about ORMs, it has simplified how I create queries in SQL!",
+        "user_id": "1"
+    },
+    {
+        "blogtitle": "Why MVC is important",
+        "blogtext": "MVC lets developers maintain a seperation of concerns and makes the code easier to manage. The Model is for data, the Veiw is for the design and the Controller is for application logic!",
+        "user_id": "2"
+    }
+]

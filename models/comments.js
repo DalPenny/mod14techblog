@@ -14,11 +14,11 @@ Comments.init(
       primaryKey: true,
       autoIncrement: true
     },
-    comment_title: {
-      type: DataTypes.STRING,
-      allowNull: true,
+    // comment_title: {
+    //   type: DataTypes.STRING,
+    //   allowNull: true,
 
-    },
+    // },
     comment_text: {
       type: DataTypes.STRING,
       allowNull: true,
