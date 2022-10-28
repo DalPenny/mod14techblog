@@ -640,12 +640,12 @@ body {
 }
 
 nav a {
-    margin: 30px;
-    background-color: #ddd;
+    margin: 10px;
+    background-color: rgb(193, 243, 255);
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(25, 0, 255);
     background-color: rgb(219, 183, 21);
 }
 
@@ -658,7 +658,7 @@ nav button {
 }
 
 header {
-    background-color: #3f8471;
+    background-color: #62998b;
     border-bottom: 4px solid rgb(176, 120, 9);
     align-items: center;
     padding: 25px;
