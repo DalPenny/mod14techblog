@@ -29,27 +29,20 @@
             <a href="/login">Dashboard</a>
             <a href="/login">Login</a>
             {{/if}}
-    {{!-- <ul>
-      <li class="li-inline nav-item"><a href="/">Home</a></li>
-      <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
-      <li class="li-inline nav-item"><a href="/login">Login</a></li>
-      <li class="li-inline nav-item"><a href="#" id="logout-link">Logout</a></li> --}}
-    {{!-- </ul> --}}
         </nav>
         <h1>
             <br><br>
-            <a class="box-border bg-purple-200 h-16 w-48 p-4 rounded-md border-4 shadow-xl first-line:flex text-xl text-center italic x-3 my-4 mx-3" href="/">Its a Tech Blog! </a>
+            <a class="box-border bg-purple-200 h-16 w-48 p-4 rounded-md border-4 shadow-xl first-line:flex text-xl text-center italic x-3 my-4 mx-3"
+                href="/">Its a Tech Blog! </a>
         </h1>
     </header>
-    <div class="wrapper">
-        <main class="body-main">
-            {{{ body }}}
-        </main>
-        <footer>
-        </footer>
-    </div>
-    {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}}
-    
+    <main>
+        {{{ body }}}
+    </main>
+    <footer>
+    </footer>
+
+
     {{!-- {{#if loggedIn}}
     <script src="/js/logout.js"></script>
     {{/if}} --}}
