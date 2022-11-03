@@ -1,0 +1,31 @@
+<div class="box box-cols-2 gap-2 flex-row">
+
+    <div class="card">
+        <div class="box-border bg-sky-200 flex-row justify-space-between">
+            <h2>
+                <li id="blogtitle" onclick="blogpostdata"
+                    class="grid grid-cols-2 bg-purple-200 first-line:flex text-xl text-left">
+                    {{postData.blogtitle}}
+                    <p class="text-right text-sm"> posted by: {{postData.user username}} on {{format_date
+                        postData.createdAt}}</p>
+                </li>
+            </h2>
+            <h2>
+                <p class="text-left">{{postData.blogtext}}</p>
+            </h2>
+        </div>
+    </div>
+    <form class="comment-form">
+        <span>Add your comment:</span>
+        <div>
+            <textarea name="comment" rows="2" id="comment-text"></textarea>
+        </div>
+
+        <div>
+            <button data-id="{{postData.id}}" type="submit" class="ui button">submit comment</button>
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript" src="/js/comment.js"></script>

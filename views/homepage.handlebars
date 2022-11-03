@@ -1,17 +1,25 @@
 <div class="box box-cols-2 gap-2 flex-row">
-{{#each postData as |postData|}}
-<div class="card">
-  <div class="box-border bg-sky-200 flex-row justify-space-between">
-    <h2>
-      <li id="blogtitle" class="grid grid-cols-2 bg-purple-200 first-line:flex text-xl text-left">
-        {{postData.blogtitle}}
-        <p class="text-right text-sm"> posted by: {{postData.user.username}} on {{format_date postData.createdAt}}</p>
-      </li>
-    </h2>
-    <h2>
-      <p class="text-left">{{postData.blogtext}}</p>
-    </h2>
+  {{#each postData as |postData|}}
+  <div class="card">
+    <div class="box-border bg-sky-200 flex-row justify-space-between">
+
+      <h2>
+
+        <li
+          id="blogtitle" 
+          class="button grid grid-cols-2 bg-purple-200 first-line:flex text-xl text-left">
+          <a id="blogpostid"  href="/blogpost/{{postData.id}}"> {{postData.blogtitle}}</a>
+          <p class="text-right text-sm"> posted by: {{postData.user.username}} on {{format_date postData.createdAt}}
+          </p>
+        </li>
+
+      </h2>
+
+      <h3>
+        <p class="text-left">{{postData.blogtext}}</p>
+      </h3>
+
+    </div>
   </div>
 </div>
-</div>
- {{/each}}
+{{/each}}

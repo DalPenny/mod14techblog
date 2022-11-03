@@ -23,7 +23,8 @@
             {{#if logged_in}}
             <a href="/">Home</a>
             <a href="/dashboard">Dashboard</a>
-            <button id="logout" class="mini ui button">logout</button>
+            {{!-- <a href="/api/users/logout">Logout</a> --}}
+            <button id="logout" class="button box-border bg-sky-200 flex-row justify-space-between">logout</button>
             {{else}}
             <a href="/login">Home</a>
             <a href="/login">Dashboard</a>
@@ -43,9 +44,10 @@
     </footer>
 
 
-    {{!-- {{#if loggedIn}}
-    <script src="/js/logout.js"></script>
-    {{/if}} --}}
+    {{#if logged_in}}
+    <script type="text/javascript" src="/js/logout.js"></script>
+
+    {{/if}}
 </body>
 
 </html>
