@@ -36,7 +36,7 @@
   https://quiet-shore-58984.herokuapp.com/login
   
   ## Screenshot
-  https://github.com/DalPenny/mod14techblog/blob/257cb3576fe99c2d6f238778ab98cd8da68ab4b0/public/images/Screen%20Shot%202022-11-04%20at%205.19.03%20PM.png <img width="1440" alt="Screen Shot" src="public/images/14techscreenshot.jpg">
+   <img width="1440" alt="Screen Shot" src="public/images/14techscreenshot.jpg">
   
   ## Github
   Have questions about this project?  
