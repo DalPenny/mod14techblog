@@ -36,7 +36,7 @@
   https://quiet-shore-58984.herokuapp.com/login
   
   ## Screenshot
-   <img width="1440" alt="Screen Shot" src="public/images/14techscreenshot.jpg">
+   <img width="1440" alt="Screen Shot" src="[public/images/14techscreenshot.jpg](https://github.com/DalPenny/mod14techblog/blob/main/public/images/14techscreenshot.png)">
   
   ## Github
   Have questions about this project?  
