@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb81218133.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/style.css">
+    <title>Tech blog!</title>
+</head>
+<!-- Header -->
+
+<body>
+    <div class="header-container border border-neutral-900 mx-auto h-7 bg-green-100">
+        
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#login">Login</a>
+            <a href="#logout">Logout</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               
+            </a>
+        </div>
+        <div class="box-border bg-purple-200 h-16 w-48 p-4 rounded-md border-4 shadow-xl first-line:flex text-xl text-center italic x-3 my-4 mx-3">The Tech Blog <i>
+        </div>
+
+
+        <header>
+            
+
+        </header>
+
+    </div>
+    </div>
+    <!-- Main container -->
+    <main>
+        <!-- paste handlebar htmls for testing -->
+        <div class="text-center relative w-3/5">
+            <div class=" top-0 h-14"></div>
+            <div class="row mx-auto d-flex align-items-center min-vh-100">
+                <div class="col-md-6 col-md-offset-3 mx-auto" id="log-in">
+                    <br>
+                    <h2 class="text-green-800"><b><br>Please Log In</b></h2>
+                    <br>
+                    <form class="login">
+                        <div class="form-username">
+                            <label for="InputUsername">Username.</label>
+                            <input type="text" class="form-control" id="input-username" placeholder="Username">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="InputPassword">Password..</label>
+                            <input type="password" class="form-control" id="input-password" placeholder="Password">
+                        </div>
+                        <br>
+                        <button type="submit"
+                            class="btn rounded-sm bg-orange-300 border-blue-700 border text-blue-700 hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-blue-300 text-center">Log-in</button>
+                    </form>
+                    <br />
+                    <p>New User? <button type="submit"
+                            class="btn rounded-sm border-blue-700 border text-blue-700 hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-blue-300 text-center">Sign
+                            Up</button> </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of paste handlebar htmls for testing -->
+    </main>
+
+
+    <script src="./assets/script/script.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+    <script src="./assets/script/googleMaps.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDn0xjfckqD40txkDANthif7G5BFhGir4&libraries=places&callback=initMap&type=park"></script>
+
+</body>
+
+</html>
